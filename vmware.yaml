@@ -2,5 +2,7 @@ plugin: vmware_vm_inventory
 strict: False
 validate_certs: False
 properties:
+- 'config.name'
+- 'config.uuid'
 - 'name'
 - 'guest.ipAddress'
