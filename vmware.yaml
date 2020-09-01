@@ -6,3 +6,12 @@ properties:
 - 'config.uuid'
 - 'name'
 - 'guest.ipAddress'
+- 'config.cpuHotAddEnabled' 
+- 'config.cpuHotRemoveEnabled'
+- 'config.instanceUuid' 
+- 'config.hardware.numCPU'
+- 'guest.hostName'
+- 'summary.runtime.powerState'
+keyed_groups:
+- key: summary.runtime.powerState
+  separator: ''
